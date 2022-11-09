@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>                          <!-- partie invisible -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de réservation</title>
+    <style>body{width: 50%;margin: auto;border:1px solid gray;padding:20px 10px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}h1,h3{background:white;text-align:center;} {margin : auto; padding-top:15px; padding-bottom:50px; width:100%;}label, input, select, textarea {margin-bottom: 15px;}</style>
+</head>
+<body>                          <!-- corps de la page début du contenu qui sera affiché -->
+
+    <h1>Votre réservation d'hotel </h1>              <!-- Titre de niveau 1 -->
+    <h3>*champs obligatoires </h3>              <!-- Titre de niveau 3 (plus petit) -->
+    <strong>Votre nom*:</strong>
+    <br/>
+    <input type="text">
+    <br/>
+    <strong>Votre prènom*:</strong>
+    <br/>
+    <input type="text">
+    <br/> 
+    <strong>Votre numéro de téléphone*:</strong>
+    <br/>
+    <input type="text">
+    <br/>
+    <strong>Adresse e-mail*:</strong>
+    <br/>
+    <input type="text">
+    <br/>
+    <strong>Selectionner la ville:</strong>
+    <br/>
+    <select id="ville" name="ville">
+    <br/>
+    <option value="Lille">lille</option>
+    <option value="Paris">Paris</option>
+    <option value="Bordeaux">Bordeaux</option>
+    <br/>
+    </select>
+    <br/>
+    <strong>Date d'arrivée</strong>
+    <br/>
+    <input type="date">
+    <br/>
+    <strong>Nombre de personnes*:</strong>
+    <br/>
+    <input type="text">
+    <br/>
+    <strong>Vos options:</strong>
+    <br/>
+    Climatisation <input type="checkbox">
+    Mini Bar <input type="checkbox">
+    Jacuzzi <input type="checkbox">
+    <br/>
+    <textarea>ajouter un commentaire</textarea>
+    <br/>
+    <strong>Acceptation des <a href="cgv.html">Conditions Générales</a> conditions Générales de Vente (CGV)</strong> 
+    <br/>
+    <input type="radio">
+    j'accepte
+    <input type="radio">
+    je refuse
+    <br/>
+    <button type="submit" name="submit">Envoyer ma demande</button>
+
+
+    
+    
+
+
+
+
+    <!-- début du formulaire -->
+    <form id="registration_form" method="POST">
+
+       
+    </form>                 <!--  fin du formulaire -->
+</body>                     <!-- fin du contenu de la page -->
+</html>
